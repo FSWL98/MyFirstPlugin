@@ -1,8 +1,8 @@
 <idea-plugin>
-  <id>com.your.company.unique.plugin.id</id>
-  <name>Plugin display</name>
+  <id>class.create</id>
+  <name>Create class</name>
   <version>1.0</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <vendor email="fswl98@gmail.com" url="http://www.yourcompany.com">YourCompany</vendor>
 
   <description><![CDATA[
       Enter short description for your plugin here.<br>
@@ -30,6 +30,13 @@
 
   <actions>
     <!-- Add your actions here -->
+
+
+      <action class="GenerateClassAction" id="classGenerator" text="Generate class">
+        <add-to-group group-id="ProjectViewPopupMenu"  anchor="first"/>
+        <keyboard-shortcut first-keystroke="control alt G" keymap="$default"/>
+      </action>
+
   </actions>
 
 </idea-plugin>
