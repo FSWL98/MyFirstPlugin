@@ -34,7 +34,7 @@
 
       <action class="GenerateClassAction" id="classGenerator" text="Generate class">
         <add-to-group group-id="ProjectViewPopupMenu"  anchor="first"/>
-        <keyboard-shortcut first-keystroke="control alt G" keymap="$default"/>
+        <keyboard-shortcut first-keystroke="control alt H" keymap="$default"/>
       </action>
 
   </actions>

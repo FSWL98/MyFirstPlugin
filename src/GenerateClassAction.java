@@ -27,9 +27,9 @@ public class GenerateClassAction extends AnAction {
         if (dialogWrapper.isOK()) {
 
             if (GeneratedClass.INSTANCE.isHasMain())
-                temp = "ClassWithMain.java";
+                temp = "Class With Main.java";
             else
-                temp = "BasicClass.java";
+                temp = "Class.java";
         }
         JavaDirectoryService.getInstance().createClass(selectedDir, GeneratedClass.INSTANCE.getName(), temp, true);
     }
